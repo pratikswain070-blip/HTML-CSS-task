@@ -1,0 +1,74 @@
+body {
+    background-color: #6a3e01
+}
+
+header {
+    text-align: center;
+    color: rgb(188, 7, 7);
+    font-size: 20px;
+    opacity: 100%;
+    font-family: 'Arial', sans-serif;
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSson1D1kIX1jnG0aL28tymYcbQAa7uML6UIQ&s');
+    padding: 20px;
+
+}
+
+nav {
+
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(#970c0c, #4f0a05);
+    padding: 15px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+
+}
+
+.info {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(#f4c79c, #ab8a60);
+    padding: 20px;
+    font-size: 15px;
+    img {
+        box-shadow: 10px 10px 5px rgb(96, 16, 16);
+        margin-left: 30px;
+        margin-right: 30px;
+        width: 40%;
+    }
+}
+
+.info1 {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(#f4c79c, #ab8a60);
+    padding: 20px;
+}
+
+.info2 {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(#f4c79c, #ab8a60);
+    padding: 20px;
+}
+
+.info3 {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(#f4c79c, #ab8a60);
+    padding: 20px;
+}
+
+footer {
+    text-align: center;
+    color: rgb(188, 7, 7);
+    font-size: 15px;
+    opacity: 100%;
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(#970c0c, #4f0a05);
+    padding: 10px;
+    color: white;
+}
+
+a{
+    color: white;
+    margin: 10px;
+    text-decoration: none;
+}
