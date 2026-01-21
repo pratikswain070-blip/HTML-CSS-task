@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="nature.css">
+        <title>Nature</title>
+    </head>
+    <body>
+        <header>
+            <h1>Fun Nature Gallery</h1>
+            <p>Explore beautiful free nature photos while learning CSS Grid!</p>
+        </header>
+        <nav>
+            <a href="">Home</a>
+            <a href="">Landscapes</a>
+            <a href="">Forests</a>
+            <a href="">Mountains</a>
+            <a href="">Water</a>
+        </nav>
+        <main class="grid-container">
+            <aside class="sidebar">
+                <h3>Filter Nature</h3>
+                <p>Try selecting:</p>
+                <ul class="checklist">
+                    <li><input type="checkbox"> Forests</li>
+                    <li><input type="checkbox"> Mountains</li>
+                    <li><input type="checkbox"> Water</li>
+                </ul>
+                <h4>Why this is perfect for Grid class:</h4>
+                <ul>
+                    <li>Main is already a 2-column grid (sidebar + gallery).</li>
+                    <li>Gallery is a responsive grid of cards, perfect for practicing:
+                        <ul>
+                            <li>grid-template-columns</li>
+                            <li>grid-gap/gap</li>
+                            <li>justify-items / align-items</li>
+                        </ul>
+                    </li>
+                    <li>Hover effects make it interactive and fun.</li>
+                    <li>Students can add their favorite nature images and experiment.</li>
+                    <li>Sidebar filters give a "real gallery feel"</li>
+                </ul>
+            </aside>
+            <div class="Photos">
+                <div class="nature">
+                    <img src="forestpath.png" alt="Forest path">
+                    <p>Forest path</p>
+                </div>
+                <div class="nature">
+                    <img src="mountain.png" alt="Mountain Lake">
+                    <p>Mountain Lake</p>
+                </div>
+                <div class="nature">
+                    <img src="sunset.png" alt="Sunset Road">
+                    <p>Sunset Road</p>
+                </div>
+                <div class="nature">
+                    <img src="waterfall.png" alt="Waterfall View">
+                    <p>Waterfall View</p>
+                </div>
+                <div class="nature">
+                    <img src=".png" alt="Green Forest">
+                    <p>Green Forest</p>
+                </div>
+                <div class="nature">
+                    <img src="sunset beach.png" alt="Sunset Beach">
+                    <p>Sunset Beach</p>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>@2026 Nature Gallery - CSS Grid Practise!</p>
+        </footer>
+    </body>
+</html>
