@@ -1,0 +1,250 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('backg.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+
+header {
+    background: rgba(5, 20, 60, 0.5);
+    backdrop-filter: blur(20px);
+    color: white;
+    height: 90px;
+    display: grid;
+    place-items: left;
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+nav {
+    background: rgba(0, 200, 255, 0.5);
+    backdrop-filter: blur(20px);
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    height: 50px;
+    display: grid;
+    place-items: center;
+    font-weight: 600;
+    font-size: 15px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+}
+
+nav a:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
+
+.webpage {
+    display: grid;
+    grid-template-columns: 220px repeat(3, 1fr);
+    gap: 25px;
+    margin: 25px;
+}
+
+.sidebar {
+    background: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    grid-row: span 3;
+    height: fit-content;
+}
+
+.sidebar h3 {
+    background: #0088ff;
+    color: white;
+    height: 45px;
+    display: grid;
+    place-items: center;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.sidebar h3:first-of-type {
+    border-radius: 14px 14px 0 0;
+}
+
+.checklist {
+    list-style: none;
+    margin: 15px;
+}
+
+.checklist li {
+    margin: 12px 0;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.checklist li:hover {
+    color: #00d4ff;
+}
+
+.Exercise {
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 15px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.Exercise:hover {
+    background: white;
+}
+
+.Yoga h2 
+{ background: #ffaa00; }
+.Running h2 
+{ background: #00ccff; }
+.Meditation h2 
+{ background: #0055aa; }
+.Gym h2 
+{ background: #ff9900; }
+.Cycling h2 
+{background: #00aaff; }
+.Keto h2 
+{ background: #00cc66; }
+.Mediterranean h2
+ { background: #0088dd; }
+.Paleo h2 
+{ background: #cc5500; }
+.Vegan h2 
+{ background: #44bb44; }
+.GlutenFree h2 
+{ background: #9966cc; }
+
+.Keto {
+    grid-column: 2;
+    margin-top: 25px;
+}
+
+.Mediterranean {
+    grid-column: 3;
+}
+
+.Paleo {
+    grid-column: 4;
+}
+
+.GlutenFree {
+    grid-column: 2;
+    grid-row: 4;
+}
+
+.Vegan {
+    grid-column: 3;
+}
+
+.Exercise h2 {
+    color: white;
+    height: 55px;
+    display: grid;
+    place-items: center;
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.Exercise img {
+    margin-top: 15px;
+    border-radius: 12px;
+    width: 100%;
+    height: 30%;
+}
+
+.Exercise pre {
+    text-align: left;
+    margin: 15px;
+    line-height: 1.8;
+    color: #555;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.Yoga h3 
+{ background: #fff3d9;
+     color: #ff8800; }
+.Running h3 
+{ background: #d9f5ff; 
+    color: #0099cc; }
+.Meditation h3 
+{ background: #d4e6f5;
+    color: #003d7a; }
+.Gym h3 
+{ background: #ffe8cc;
+     color: #ff7700; }
+.Cycling h3 
+{ background: #cceeff; 
+    color: #0077cc; }
+.Keto h3 
+{ background: #d9f5e6; 
+    color: #008844; }
+.Mediterranean h3 
+{ background: #d4ebf7; 
+    color: #005599; }
+.Paleo h3 
+{ background: #ffe0cc; 
+    color: #994400; }
+.Vegan h3 
+{ background: #e6f7e6; 
+    color: #2d8833; }
+.GlutenFree h3 
+{ background: #f0e6f7; 
+    color: #7744aa; }
+
+.Exercise h3 {
+    height: 40px;
+    display: grid;
+    place-items: center;
+    font-size: 17px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+}
+
+.Exercise ul {
+    text-align: left;
+    margin: 15px 30px;
+    line-height: 2;
+    color: #444;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+input[type="checkbox"] {
+    cursor: pointer;
+    accent-color: #ffaa00;
+    width: 18px;
+    height: 18px;
+}
+
+footer {
+    background: rgba(5, 20, 60, 0.5);
+    backdrop-filter: blur(20px);
+    color: white;
+    height: 90px;
+    display: grid;
+    place-items: center;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+
+
