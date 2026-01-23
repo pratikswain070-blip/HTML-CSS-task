@@ -1,0 +1,55 @@
+<html>
+<head>
+    <style>
+        svg {
+            background:linear-gradient(rgb(4, 21, 255), rgb(5, 213, 255));
+        }
+        circle:hover {
+            fill: orange;
+            
+        }
+         .r:hover {
+            fill: rgb(117, 5, 5);
+        }
+        .y:hover {
+            fill: rgb(255, 217, 0);
+        }
+        .g:hover {
+            fill: rgb(0, 255, 0);
+        }
+    </style>
+</head>
+<body>
+    <svg width="100%" height="100%" style="border:1px solid black ">
+        <rect x="0" y="600" width="1460" height="400" fill="brown" />
+        <line x1="0" y1="680" x2="100%" y2="680" stroke="white" stroke-width="5" />
+        <circle class="sun" cx="750" cy="100" r="80" fill="yellow">
+            <animate 
+                attributeName="r" 
+                values="30;100;30" 
+                dur="2s" 
+                repeatCount="indefinite" />
+        </circle>
+        
+        <rect x="0" y="0" width="200" height="00" fill="rgb(4, 21, 255)" />
+            <rect x="60" y="170" width="80" height="290" fill="black"/>
+            <rect x="85" y="460" width="30" height="140" fill="grey" />
+            <circle class="r" cx="100" cy="220" r="30" fill="red" />
+            <circle class="y" cx="100" cy="320" r="30" fill="yellow" />
+            
+            <circle class="g" cx="100" cy="420" r="30" fill="green" />
+             <rect class="top"x="900" y="120" width="600" height="80" fill="rgb(47, 28, 28)" />
+             <rect class="middle" x="1000" y="200" width="400" height="400" fill="beige"/>
+             <rect class="door" x="1160" y="400" width="100" height="200" fill="darkbrown" />
+            <g>
+                <rect x="580" y="500" width="300" height="100" fill="red" />
+                <rect x="630" y="450" width="200" height="70" fill="red" />
+                <circle cx="630" cy="620" r="50" fill="black" />
+                <circle cx="830" cy="620" r="50" fill="black" />
+                <circle cx="630" cy="620" r="25" fill="gray" />
+                <circle cx="830" cy="620" r="25" fill="gray" />
+            </g>
+             
+    </svg>
+</body>
+</html>
