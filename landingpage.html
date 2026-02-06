@@ -3,10 +3,10 @@
 <style>
     :root {
         --body:rgb(2, 50, 2);
-        --main-bg-color: #8ef181;
+        --main-bg-color: #3ccd29;
         --card-bg-color: #b4adad;
         --text-color: #1e1d1d;
-        --padding:30px;
+        --padding:45px;
         --p:50px;
         --text-align:center;
         --content:center;
@@ -17,6 +17,10 @@
         --h:100%;
         --fit:cover;
         --font:20px;
+        --light-green:rgb(164, 201, 164);
+        --btn-padding:15px 30px;
+        --btn-font:18px;
+        --border-radius:8px;
 
     }
     body{
@@ -68,6 +72,16 @@
         color: var(--text-color);
         font-size: var(--font);
     }
+    .btn-container {
+        text-align: var(--text-align);
+        margin: var(--m);
+    }
+    .btn {
+        padding: var(--btn-padding);
+        font-size: var(--btn-font);
+        background-color: var(--main-bg-color);
+        border-radius: var(--border-radius);
+    }
    
 
 </style>
@@ -85,6 +99,10 @@
         <a href="#">Mountains</a>
         <a href="#">Water</a>
     </nav>
+
+    <div class="btn-container">
+        <button class="btn" onclick="document.body.style.backgroundColor = 'lightgreen'">Change Background</button>
+    </div>
 
     <section class="gallery">
             <div class="card">
